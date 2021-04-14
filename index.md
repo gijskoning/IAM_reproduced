@@ -1,3 +1,4 @@
+Temp poster image:
 ![image](poster.png)
 
 # Introduction
