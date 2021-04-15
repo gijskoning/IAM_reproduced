@@ -12,7 +12,6 @@
 *Used this PPO algorithm https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail as the author used a similar algorithm*
 *Did use a different epoch of 4 instead of 3 by accident*
 
-
 # Results
 *Focused on reproducing Figure 5 of the paper
 Minibatch of 8 with four different models
@@ -28,8 +27,8 @@ The paper claimed that GRU or LSTM are less stable but actually our results show
 scale parameter
 average done over number of steps
 Some inconsistencies when comparing the paper and the appendix about the minibatch
-We didn’t find out what time horizon meant as parameter
-*
+We didn’t find out what time horizon meant as parameter*
+
 # Conclusion
 *Overall the paper was good reproducible. And we want to note that the author gave feedback very quickly which adds to the reproducibility factor. 
 However we got different results compared to the paper, IAM gave in our case not the best results, but the FNN with one observation did.*
